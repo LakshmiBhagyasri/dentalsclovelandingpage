@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffaf5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fffaf5;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-orange {
+  color: #ec7c1c;
+}
+
+.logo-smile {
+  color: #42210b;
+}
+
+.logo-subtext {
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #42210b;
+  margin-top: 2px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.book-btn, .call-btn {
+  padding: 10px 20px;
+  border: 2px solid #42210b;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-btn {
+  background-color: #ec7c1c;
+  color: white;
+  border: none;
+}
+
+.call-btn {
+  background-color: white;
+  color: #42210b;
+}
+.clinic-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  border-top: 2px solid #eee;
+}
+
+.promo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-image: url('homepage-img.png');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  gap: 30px;
+}
+
+.promo-left {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay-text {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.overlay-text h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.overlay-text p {
+  margin: 0 0 15px;
+  font-size: 16px;
+}
+
+.orange-btn {
+  background-color: #f58020;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.doctor-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.promo-right {
+  flex: 1;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.promo-right h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="tel"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.captcha-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.captcha-box {
+  padding: 10px 20px;
+  background-color: #42210b;
+  color: white;
+  border-radius: 6px;
+}
+
+.checkbox-label {
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.stats-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fffdf9;
+}
+
+.stats-image {
+  max-width: 100%;
+  height: auto;
+}
+.treatment-types {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.treatment-types h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.treatment-types .subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.treatment-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.treatment-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  width: 320px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.treatment-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #333;
+  margin: 6px 0;
+}
+
+.card-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-content .price {
+  font-size: 14px;
+  margin: 12px 0 8px;
+  color: #f57c00;
+}
+
+.orange-btn {
+  background-color: #f57c00;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.smile-transform-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.smile-transform-section h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.smile-transform-section p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.smile-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.smile-card {
+  width: 150px;
+  text-align: center;
+}
+
+.smile-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.caption {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.caption span {
+  color: #f57c00;
+  font-size: 13px;
+}
+
